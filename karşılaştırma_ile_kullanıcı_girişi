@@ -1,0 +1,12 @@
+sifre='1234'
+kullanici='sevim'
+
+K_giris=input('kullanıcı adı giriniz:')
+if K_giris==kullanici:
+	S_giris=input('şifre giriniz:')
+	if S_giris==sifre:
+		print ('hoşgeldiniz')
+	else:
+			print ('şifre hatalı')
+else:
+	print: ('kullanıcı adı hatalı!!')
